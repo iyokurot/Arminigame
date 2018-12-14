@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- shape:rectangle(=四角形) -->
+        <shape android:shape="rectangle">
+            <!-- item②に対して2dp内側に入る。 -->
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <solid android:color="#f2ee05" />
+        </shape>
+    </item>
+
+    <!-- item② -->
+    <item>
+        <!-- shape:rectangle(=四角形) -->
+        <shape android:shape="rectangle">
+            <!-- item③に対して2dp内側に入る。 -->
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <!-- 色:白 -->
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+    <!-- item③ -->
+    <item>
+        <!-- shape:rectangle(=四角形) -->
+        <shape android:shape="rectangle">
+            <solid android:color="#f2ee05" />
+        </shape>
+    </item>
+
+</layer-list>

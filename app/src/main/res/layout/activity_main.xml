@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yozora"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="null"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/star6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/star8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_star_big_on"
+                android:text="★"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/moveImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+
+            <ImageView
+                android:id="@+id/moveImage9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yozora" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/Hint"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@android:drawable/ic_menu_help"
+            android:text="Hint"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
